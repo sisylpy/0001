@@ -420,7 +420,7 @@ public class NxCommunityOrdersController {
     @RequestMapping(value = "/customerCashPayPindan", method = RequestMethod.POST)
     public R customerCashPayPindan(@RequestBody NxCommunityOrdersEntity nxOrders) {
 
-
+        System.out.println("fabdddbdb");
         MyWxShixianliliPayConfig config = new MyWxShixianliliPayConfig();
 
         String nxRbTotal = nxOrders.getNxCoTotal();
