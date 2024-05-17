@@ -78,7 +78,6 @@ public class NxCommunityOrdersSubController {
            NxCommunityOrdersEntity nxCommunityOrdersEntity = nxCommunityOrdersService.queryObject(nxCosOrdersId);
            nxCommunityOrdersEntity.setNxCoStatus(3);
            nxCommunityOrdersService.update(nxCommunityOrdersEntity);
-
            System.out.println("orderid=" + subEntity.getNxCommunityOrdersSubId() + "timemeemmelog222" + testPrintTime());
        }
 
